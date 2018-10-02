@@ -1,2 +1,14 @@
-body{background-color: green;}
+body{background-color: mediumseagreen;}
+h1{color: white;
+   text-align: center; font-size: 12px;
+   }
+p {font-family: verdana}
 <img src= "images/red_Apples.jpg.png" alt="When two dogs meet" width="200" height="200" />
+div
+{
+  width:50%;
+  hieght:40%;
+  center;
+
+}
+ 
