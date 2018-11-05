@@ -1,0 +1,14 @@
+body{
+   font-family: 'Open sans', sans-serif;
+   margin: auto 20px;
+}
+
+#credits {
+ font-style:normal;
+ font-size: .65cm;
+ margin-bottom:20px;
+}
+
+#header-image {
+ width: 100%;
+}

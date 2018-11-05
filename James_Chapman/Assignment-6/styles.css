@@ -1,0 +1,11 @@
+body{
+  margin: 0 auto;
+  background-color: orange;
+
+  }
+
+  #message-container {
+       padding: 10px;
+       margin: 20px 0;
+       background-color: skyblue;
+}
