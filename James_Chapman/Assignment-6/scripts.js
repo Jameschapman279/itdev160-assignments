@@ -72,7 +72,7 @@ function addMessage(event) {
  if (messageInputEl.value != ''){
 
     var message = new Message(type, user, messageInputEl.value);
-    message.push(message);
+    messages.push(message);
 
     //create element.
      var el = createMessageElement(message);
@@ -87,15 +87,22 @@ function addMessage(event) {
 
       // Add to Dom.
       messageContainerEl.appendChild(el);
+    }
+  }
+    function reset(){
+      var resetEl = documentElementById('message-input');
+      resetEl.value = '';
+      location.reload(false);
+      return resetEl;
+    }
 
-      // Reset input.
-      messageInputEl.value = '';
-   }
-}
+
+
 function init(){
 //wire event handler
 document.getElementById('send-button').onclick = addMessage;
 document.getElementById('reply-button').onclick = addMessage;
+document.getElementById("reset-button").onclick = reset;
 }
 
   init();
