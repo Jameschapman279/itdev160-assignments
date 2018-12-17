@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    font-family: "Open Sans", sans-serif;
+    background-color: skyblue;
+
+}
+
+main {
+    display: flex;
+    flex: 1;
+}
+
+#main-header {
+    background-color: #FF00FF;
+}
+
+#main-header h1{
+    color: #fff;
+    font-size: 1em;
+    text-align: center;
+}
+
+/* Sidebar */
+#sidebar {
+    width: 225px;
+    flex: 0 0 12em;
+    background-color: #FF00FF;
+}
+
+#sidebar ul {
+    padding: 0;
+    list-style: none;
+}
+
+#sidebar ul li {
+    color: #eee;
+    padding: 0 0 10px 20px;
+}
+
+/* Quotes */
+
+/* Author */
